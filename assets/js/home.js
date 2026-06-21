@@ -67,8 +67,6 @@ app.innerHTML = `
   <div class="container">
     <div class="section-head compact-head">
       <div><div class="eyebrow">لماذا ركاز؟</div><h2>اختيار الوحدة يبدأ من معلومات مرتبة</h2></div>
-      <p>نركز على ما يحتاجه العميل فعلًا: بيانات المشروع، تفاصيل الوحدة، المخطط، والموقع .</p>
-    </div>
     <div class="grid grid-4 why-grid">
       <div class="card icon-card why-card"><div class="icon">01</div><h3>وضوح البيانات</h3><p class="muted">عرض منظم لتفاصيل المشروع والوحدات والمخططات.</p></div>
       <div class="card icon-card why-card"><div class="icon">02</div><h3>مشروعات منتقاة</h3><p class="muted">التركيز على فرص سكنية مناسبة في مواقع واضحة.</p></div>
