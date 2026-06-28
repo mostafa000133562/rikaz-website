@@ -8,7 +8,7 @@ app.innerHTML = `
 <section class="page-hero unit-page-hero">
   <div class="container">
     <div class="page-title-card page-title-compact unit-title-card">
-      <div class="breadcrumb"><a href="index.html">الرئيسية</a><span>/</span><a href="projects.html">مشروعاتنا</a><span>/</span><a href="project.html?id=${project.id}">${project.name}</a><span>/</span><span>وحدة ${unit.id}</span></div>
+      <div class="breadcrumb"><a href="index.html">الرئيسية</a><span>/</span><a href="projects.html">المشاريع</a><span>/</span><a href="project.html?id=${project.id}">${project.name}</a><span>/</span><span>وحدة ${unit.id}</span></div>
       <h1>تفاصيل وحدة ${unit.id}</h1>
       <p class="lead">بيانات الوحدة والمخطط الخاص بها، مع إمكانية إرسال استفسار مباشر عبر واتساب.</p>
       <div class="chips compact-chips"><span class="chip success">${unit.status}</span><span class="chip">${unit.floorName}</span><span class="chip">${fmtArea(unit.netArea)}</span></div>
