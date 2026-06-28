@@ -33,9 +33,9 @@ app.innerHTML = `
         <h2>${DATA.company.nameAr}</h2>
         <p class="muted">${DATA.company.about}</p>
         <div class="mini-points">
-          <span>عرض واضح للوحدات</span>
-          <span>مشروعات مختارة بعناية</span>
-          <span>تواصل مباشر عبر واتساب</span>
+          <span>عرض احترافي واضح</span>
+          <span>مشاريع مختارة بعناية</span>
+          <span>تواصل مباشر</span>
         </div>
       </div>
     </div>
