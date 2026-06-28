@@ -9,11 +9,11 @@ app.innerHTML = `
       <div class="hero-content">
         <div class="container">
           <div class="hero-copy">
-            <div class="kicker">تسويق عقاري في الرياض</div>
-            <h1>تجربة عقارية واضحة تبدأ من الثقة</h1>
-            <p class="lead">نساعدك على التعرف على المشروع، مقارنة الوحدات، واختيار الأنسب لك من خلال عرض منظم ومتابعة مباشرة.</p>
+            <div class="kicker">التسويق والوساطة العقاري في الرياض</div>
+            <h1>تجربة عقارية واضحة تبدأ بالثقة والاحترافية</h1>
+            <p class="lead">نساعدك على التعرف بالمشروع، مقارنة الوحدات، واختيار الأنسب لك بعناية من خلال عرض و متابعة مباشرة.</p>
             <div class="hero-buttons">
-              <a class="btn btn-primary" href="projects.html">استكشف مشروعاتنا</a>
+              <a class="btn btn-primary" href="projects.html">المشاريع</a>
               <a class="btn btn-soft" href="contact.html">تواصل معنا</a>
             </div>
           </div>
