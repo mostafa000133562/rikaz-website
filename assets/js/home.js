@@ -24,23 +24,7 @@ app.innerHTML = `
   </div>
 </section>
 
-<section id="about" class="section section-tight">
-  <div class="container">
-    <div class="about-card card compact-about">
-      <div class="about-img about-img-wide"><img src="${project.hero}" alt="ركاز للخدمات العقارية"></div>
-      <div class="about-content">
-        <div class="eyebrow">من نحن</div>
-        <h2>${DATA.company.nameAr}</h2>
-        <p class="muted">${DATA.company.about}</p>
-        <div class="mini-points">
-          <span>عرض احترافي واضح</span>
-          <span>مشاريع مختارة بعناية</span>
-          <span>تواصل مباشر</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
 
 <section class="section-sm section-tight">
   <div class="container grid grid-2 statement-grid">
