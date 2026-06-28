@@ -29,7 +29,7 @@ function renderUnits(){
 app.innerHTML = `
 <section class="page-hero project-main-hero">
   <div class="container">
-    <div class="breadcrumb"><a href="index.html">الرئيسية</a><span>/</span><a href="projects.html">مشروعاتنا</a><span>/</span><span>${project.name}</span></div>
+    <div class="breadcrumb"><a href="index.html">الرئيسية</a><span>/</span><a href="projects.html">المشاريع</a><span>/</span><span>${project.name}</span></div>
     <div class="project-hero compact-project-hero">
       <img src="${project.hero}" alt="${project.name}">
       <div class="project-hero-overlay"><div class="project-hero-content"><div class="kicker">${project.status}</div><h1>${project.name}</h1><p class="lead">${project.summary}</p><a class="btn btn-primary" href="#units">استعرض الوحدات</a></div></div>
