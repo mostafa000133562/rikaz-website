@@ -23,7 +23,7 @@ function renderHeader(){
         <button class="mobile-toggle" aria-label="فتح القائمة">☰</button>
         <nav class="nav-links" aria-label="القائمة الرئيسية">
           <a class="${activeClass('home')}" href="index.html">الرئيسية</a>
-          <a class="${activeClass('projects')} ${activeClass('project')} ${activeClass('unit')}" href="projects.html">مشروعاتنا</a>
+          <a class="${activeClass('projects')} ${activeClass('project')} ${activeClass('unit')}" href="projects.html">المشاريع</a>
         </nav>
         <div class="nav-actions"><a class="btn btn-primary" href="contact.html">تواصل معنا</a></div>
       </div>
@@ -43,7 +43,7 @@ function renderFooter(){
           <div>
             <div class="footer-title">روابط سريعة</div>
             <p><a href="index.html">الرئيسية</a></p>
-            <p><a href="projects.html">مشروعاتنا</a></p>
+            <p><a href="projects.html">المشاريع</a></p>
             <p><a href="contact.html">تواصل معنا</a></p>
           </div>
           <div>
