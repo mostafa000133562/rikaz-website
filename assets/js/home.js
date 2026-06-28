@@ -68,10 +68,10 @@ app.innerHTML = `
     <div class="section-head compact-head">
       <div><div class="eyebrow">لماذا ركاز؟</div><h2>اختيار الوحدة يبدأ بتفاصيل وبيانات منظمة</h2></div>
     <div class="grid grid-4 why-grid">
-      <div class="card icon-card why-card"><div class="icon">01</div><h3>وضوح البيانات</h3><p class="muted">عرض منظم لتفاصيل المشروع والوحدات والمخططات.</p></div>
-      <div class="card icon-card why-card"><div class="icon">02</div><h3>مشروعات منتقاة</h3><p class="muted">التركيز على فرص سكنية مناسبة في مواقع واضحة.</p></div>
-      <div class="card icon-card why-card"><div class="icon">03</div><h3>تجربة سهلة</h3><p class="muted">تصفح المشروع، اختر الدور، ثم افتح بيانات الوحدة مباشرة.</p></div>
-      <div class="card icon-card why-card"><div class="icon">04</div><h3>متابعة مباشرة</h3><p class="muted">إرسال الاستفسار عبر واتساب للرد السريع والمتابعة.</p></div>
+      <div class="card icon-card why-card"><div class="icon">01</div><h3>عرض واضح</h3><p class="muted">عرض منظم لتفاصيل المشروع والوحدات والمخططات.</p></div>
+      <div class="card icon-card why-card"><div class="icon">02</div><h3>مشاريع منتقاة</h3><p class="muted">التركيز على فرص مميزة مختارة بعناية.</p></div>
+      <div class="card icon-card why-card"><div class="icon">03</div><h3>تجربة سلسة</h3><p class="muted">عرض المشروع، حدد الدور المناسب، تصفح بيانات الوحدة المختارة بشكل مباشر و سلس.</p></div>
+      <div class="card icon-card why-card"><div class="icon">04</div><h3>متابعة مستمرة</h3><p class="muted">تواصل معنا للاستفسار عبر الواتساب للرد السريع والمتابعة.</p></div>
     </div>
   </div>
 </section>
