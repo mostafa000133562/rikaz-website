@@ -48,7 +48,7 @@ app.innerHTML = `
       <div class="statement-icon">◎</div>
       <div>
         <div class="eyebrow">الرؤية</div>
-        <h3>وجهة موثوقة للفرص السكنية</h3>
+        <h3>وجهة عقارية تتسم بالمصداقية والشفافية</h3>
         <p class="muted">${DATA.company.vision}</p>
       </div>
     </div>
@@ -56,7 +56,7 @@ app.innerHTML = `
       <div class="statement-icon">✦</div>
       <div>
         <div class="eyebrow">الرسالة</div>
-        <h3>تسويق عقاري أوضح وأسهل</h3>
+        <h3>خدمات عقارية سلسة وواضحة</h3>
         <p class="muted">${DATA.company.mission}</p>
       </div>
     </div>
@@ -66,7 +66,7 @@ app.innerHTML = `
 <section class="section section-tight why-section">
   <div class="container">
     <div class="section-head compact-head">
-      <div><div class="eyebrow">لماذا ركاز؟</div><h2>اختيار الوحدة يبدأ من معلومات مرتبة</h2></div>
+      <div><div class="eyebrow">لماذا ركاز؟</div><h2>اختيار الوحدة يبدأ بتفاصيل وبيانات منظمة</h2></div>
     <div class="grid grid-4 why-grid">
       <div class="card icon-card why-card"><div class="icon">01</div><h3>وضوح البيانات</h3><p class="muted">عرض منظم لتفاصيل المشروع والوحدات والمخططات.</p></div>
       <div class="card icon-card why-card"><div class="icon">02</div><h3>مشروعات منتقاة</h3><p class="muted">التركيز على فرص سكنية مناسبة في مواقع واضحة.</p></div>
