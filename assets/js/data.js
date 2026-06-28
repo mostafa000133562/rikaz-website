@@ -595,7 +595,7 @@ window.RIKAZ_DATA = {
       "terrace": true,
       "garden": false,
       "status": "متاحة",
-      "planImage": "assets/unit-plans/A-22.jpg"
+      "planImage": "assets/unit-plans/A-22.png"
     },
     {
       "id": "B-18",
@@ -665,7 +665,7 @@ window.RIKAZ_DATA = {
       "terrace": true,
       "garden": false,
       "status": "متاحة",
-      "planImage": "assets/unit-plans/B-22.jpg"
+      "planImage": "assets/unit-plans/B-22.png"
     }
   ]
 };
