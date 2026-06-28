@@ -5,7 +5,7 @@ app.innerHTML = `
   <div class="container">
     <div class="page-title-card page-title-compact">
       <div class="breadcrumb"><a href="index.html">الرئيسية</a><span>/</span><span>مشروعاتنا</span></div>
-      <h1>مشروعاتنا</h1>
+      <h1>المشاريع</h1>
       <p class="lead">اختر المشروع للاطلاع على التفاصيل، ثم انتقل لاختيار الدور ورقم الوحدة المناسبة.</p>
     </div>
   </div>
