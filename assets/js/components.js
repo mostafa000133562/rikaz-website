@@ -37,7 +37,6 @@ function renderFooter(){
       <div class="container">
         <div class="footer-grid">
           <div>
-            <img src="assets/images/logo-ar.png" alt="ركاز">
             <p>${DATA.company.about}</p>
           </div>
           <div>
