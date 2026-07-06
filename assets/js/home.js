@@ -65,7 +65,7 @@ app.innerHTML = `
     <div class="card project-teaser compact-project-teaser">
       <img src="${project.hero}" alt="${project.name}">
       <div class="project-body">
-        <div class="eyebrow">أحدث المشروعات</div>
+        <div class="eyebrow">أحدث المشاريع</div>
         <h2>${project.name}</h2>
         <p class="muted">${project.summary}</p>
         <div class="chips compact-chips">
