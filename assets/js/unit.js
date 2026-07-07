@@ -40,9 +40,9 @@ app.innerHTML = `
         <div class="spec-row"><span>الدور</span><strong>${unit.floorName}</strong></div>
         <div class="spec-row"><span>صافي المساحة</span><strong>${fmtArea(unit.netArea)}</strong></div>
         ${unit.roofArea ? `<div class="spec-row"><span>مساحة خارجية / سطح</span><strong>${fmtArea(unit.roofArea)}</strong></div>` : ''}
-        <div class="spec-row"><span>بلكونة</span><strong>${unit.balcony ? 'متوفرة' : 'غير متوفرة'}</strong></div>
-        <div class="spec-row"><span>تراس</span><strong>${unit.terrace ? 'متوفر' : 'غير متوفر'}</strong></div>
-        <div class="spec-row"><span>حديقة</span><strong>${unit.garden ? 'متوفرة' : 'غير متوفرة'}</strong></div>
+<div class="spec-row"><span>بلكونة</span><strong>${availabilityMark(unit.balcony)}</strong></div>
+<div class="spec-row"><span>تراس</span><strong>${availabilityMark(unit.terrace)}</strong></div>
+<div class="spec-row"><span>حديقة</span><strong>${availabilityMark(unit.garden)}</strong></div>
         <div class="spec-row"><span>الحالة</span><strong class="status">${unit.status}</strong></div>
       </div>
       <div class="unit-actions">
