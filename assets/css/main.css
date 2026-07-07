@@ -124,3 +124,25 @@ button:disabled{opacity:.65;cursor:not-allowed}
 .project-hero-content p {
   display: none !important;
 }
+.availability-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.availability-mark.yes {
+  background: #eaf8f1;
+  color: #0b8f57;
+  border: 1px solid #bfe8d3;
+}
+
+.availability-mark.no {
+  background: #fff1f1;
+  color: #c0392b;
+  border: 1px solid #f1c7c2;
+}
