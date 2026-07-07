@@ -67,7 +67,6 @@ app.innerHTML = `
       <div class="project-body">
         <div class="eyebrow">أحدث المشاريع</div>
         <h2>${project.name}</h2>
-        <p class="muted">${project.summary}</p>
         <div class="chips compact-chips">
           <span class="chip">${project.location}</span>
           <span class="chip">${project.type}</span>
