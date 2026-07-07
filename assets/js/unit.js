@@ -3,7 +3,15 @@ const unit = unitById(query.get('unit'));
 const project = projectById('aldiyar-safa');
 const interest = `استفسار عن مشروع ${project.name} - وحدة ${unit.id}`;
 const waMsg = `مرحبًا، أرغب في الاستفسار عن ${project.name}\nرقم الوحدة: ${unit.id}\nالدور: ${unit.floorName}\nالمساحة: ${fmtArea(unit.netArea)}`;
+function availabilityMark(value) {
+  const isAvailable = value === true || value === "متوفرة" || value === "متوفر" || value === "نعم";
 
+  return `
+    <span class="availability-mark ${isAvailable ? "yes" : "no"}">
+      ${isAvailable ? "✓" : "×"}
+    </span>
+  `;
+}
 app.innerHTML = `
 <section class="page-hero unit-page-hero">
   <div class="container">
