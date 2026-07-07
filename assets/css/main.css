@@ -106,3 +106,21 @@ h1{font-size:clamp(32px,4vw,54px);line-height:1.22}h2{font-size:clamp(26px,2.6vw
 /* Rakayez CRM integration */
 .contact-status{font-weight:700;line-height:1.8}
 button:disabled{opacity:.65;cursor:not-allowed}
+.project-hero-overlay {
+  background: linear-gradient(
+    90deg,
+    rgba(255,255,255,.82),
+    rgba(255,255,255,.55),
+    rgba(255,255,255,.12)
+  ) !important;
+  color: #111 !important;
+}
+
+.project-hero-content h1 {
+  color: #111 !important;
+  text-shadow: none !important;
+}
+
+.project-hero-content p {
+  display: none !important;
+}
