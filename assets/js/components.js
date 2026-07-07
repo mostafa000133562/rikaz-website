@@ -40,6 +40,19 @@ function renderFooter(){
             <p>${DATA.company.about}</p>
           </div>
           <div>
+ <div class="social-links">
+  <a href="https://www.instagram.com/rikazaqar?igsh=bXR4amQ0ZDUxYXg=" target="_blank" rel="noopener" aria-label="Instagram">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+      <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5A4.5 4.5 0 1 1 12 16.5 4.5 4.5 0 0 1 12 7.5zm0 2A2.5 2.5 0 1 0 12 14.5 2.5 2.5 0 0 0 12 9.5zM17.5 6.2a1.1 1.1 0 1 1-1.1 1.1 1.1 1.1 0 0 1 1.1-1.1z"/>
+    </svg>
+  </a>
+
+  <a href="https://x.com/rikazaqar?s=11&t=EzQSdlrGFKslNfOvrn19vg" target="_blank" rel="noopener" aria-label="X">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+      <path d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3l-5-7.6L5.4 22H2.3l7.3-8.4L2 2h6.5l4.5 6.9L18.9 2zm-1.1 17.8h1.7L7.6 4.1H5.8l12 15.7z"/>
+    </svg>
+  </a>
+</div>
             <div class="footer-title">روابط سريعة</div>
             <p><a href="index.html">الرئيسية</a></p>
             <p><a href="projects.html">المشاريع</a></p>
@@ -57,19 +70,7 @@ function renderFooter(){
     </footer>
     <a class="whatsapp-float" href="${waLink(companyMessage())}" target="_blank" rel="noopener">واتساب</a>`;
 }
-<div class="social-links">
-  <a href="https://www.instagram.com/rikazaqar?igsh=bXR4amQ0ZDUxYXg=" target="_blank" rel="noopener" aria-label="Instagram">
-    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
-      <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5A4.5 4.5 0 1 1 12 16.5 4.5 4.5 0 0 1 12 7.5zm0 2A2.5 2.5 0 1 0 12 14.5 2.5 2.5 0 0 0 12 9.5zM17.5 6.2a1.1 1.1 0 1 1-1.1 1.1 1.1 1.1 0 0 1 1.1-1.1z"/>
-    </svg>
-  </a>
 
-  <a href="https://x.com/rikazaqar?s=11&t=EzQSdlrGFKslNfOvrn19vg" target="_blank" rel="noopener" aria-label="X">
-    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
-      <path d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3l-5-7.6L5.4 22H2.3l7.3-8.4L2 2h6.5l4.5 6.9L18.9 2zm-1.1 17.8h1.7L7.6 4.1H5.8l12 15.7z"/>
-    </svg>
-  </a>
-</div>
 function renderBase(){ renderHeader(); renderFooter(); }
 function projectById(id = 'aldiyar-safa'){ return DATA.projects.find(p => p.id === id) || DATA.projects[0]; }
 function unitById(id){ return DATA.units.find(u => u.id === id) || DATA.units[0]; }
