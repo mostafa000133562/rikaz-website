@@ -23,7 +23,30 @@ app.innerHTML = `
     </div>
   </div>
 </section>
+<section class="section-sm">
+  <div class="container">
+    <div class="card about-card">
+      <div>
+        <div class="eyebrow">من نحن</div>
+        <h2>ركاز للخدمات العقارية</h2>
+        <p class="muted">
+          ركاز للخدمات العقارية شركة تسويق عقاري في الرياض، نعرض فرصًا سكنية مختارة بعناية،
+          ونساعد العميل على فهم تفاصيل المشروع والوحدة المناسبة له بوضوح واحترافية.
+        </p>
 
+        <div class="chips">
+          <span class="chip">عرض واضح للوحدات</span>
+          <span class="chip">مشروعات مختارة بعناية</span>
+          <span class="chip">تواصل مباشر عبر واتساب</span>
+        </div>
+      </div>
+
+      <div class="about-img about-logo-box">
+        <img src="assets/images/logo-ar.png" alt="شعار ركاز" class="about-logo-img">
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <section class="section-sm section-tight">
