@@ -159,3 +159,25 @@ button:disabled{opacity:.65;cursor:not-allowed}
 .about-card p {
   margin-bottom: 10px !important;
 }
+/* Mobile Header Menu Position Fix */
+@media (max-width: 960px) {
+  .nav {
+    justify-content: flex-start !important;
+    gap: 10px !important;
+  }
+
+  .brand {
+    order: 1 !important;
+    margin-inline-end: auto !important;
+  }
+
+  .nav-actions {
+    order: 2 !important;
+  }
+
+  .mobile-toggle {
+    order: 3 !important;
+    display: block !important;
+    margin: 0 !important;
+  }
+}
