@@ -143,8 +143,8 @@ button:disabled{opacity:.65;cursor:not-allowed}
 }
 
 .about-logo-box img.about-logo-img {
-  width: 420px !important;
-  max-width: 420px !important;
+  width: 520px !important;
+  max-width: 520px !important;
   height: auto !important;
   max-height: 160px !important;
   object-fit: contain !important;
