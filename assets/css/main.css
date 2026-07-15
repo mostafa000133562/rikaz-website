@@ -105,3 +105,18 @@ h1{font-size:clamp(32px,4vw,54px);line-height:1.22}h2{font-size:clamp(26px,2.6vw
 /* Rakayez CRM integration */
 .contact-status{font-weight:700;line-height:1.8}
 button:disabled{opacity:.65;cursor:not-allowed}
+.about-logo-box{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#fff;
+  min-height:320px;
+  padding:28px;
+}
+
+.about-logo-box img.about-logo-img{
+  width:100%;
+  max-width:420px;
+  height:auto;
+  object-fit:contain !important;
+}
