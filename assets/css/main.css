@@ -114,9 +114,18 @@ button:disabled{opacity:.65;cursor:not-allowed}
   padding:28px;
 }
 
+.about-logo-box{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#fff;
+  min-height:220px;
+  padding:18px;
+}
+
 .about-logo-box img.about-logo-img{
   width:100%;
-  max-width:420px;
+  max-width:220px;
   height:auto;
   object-fit:contain !important;
 }
