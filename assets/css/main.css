@@ -125,7 +125,7 @@ button:disabled{opacity:.65;cursor:not-allowed}
 
 .about-logo-box img.about-logo-img{
   width:100%;
-  max-width:220px;
+  max-width:160px;
   height:auto;
   object-fit:contain !important;
 }
