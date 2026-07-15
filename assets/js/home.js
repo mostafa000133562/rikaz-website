@@ -42,7 +42,7 @@ app.innerHTML = `
       </div>
 
       <div class="about-img about-logo-box">
-        <img src="assets/images/logo-ar.png" alt="شعار ركاز" class="about-logo-img">
+        <img src="assets/images/logo-about.png" alt="شعار ركاز" class="about-logo-img">
       </div>
     </div>
   </div>
