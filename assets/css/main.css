@@ -181,3 +181,25 @@ button:disabled{opacity:.65;cursor:not-allowed}
     margin: 0 !important;
   }
 }
+/* Strong About Logo Fix */
+.about-card {
+  grid-template-columns: 1fr 1fr !important;
+  align-items: center !important;
+}
+
+.about-logo-box {
+  min-height: 230px !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  overflow: visible !important;
+}
+
+.about-logo-box img.about-logo-img {
+  width: 520px !important;
+  max-width: 520px !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  transform: scale(1.35) !important;
+}
