@@ -105,101 +105,31 @@ h1{font-size:clamp(32px,4vw,54px);line-height:1.22}h2{font-size:clamp(26px,2.6vw
 /* Rakayez CRM integration */
 .contact-status{font-weight:700;line-height:1.8}
 button:disabled{opacity:.65;cursor:not-allowed}
-.about-logo-box{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background:#fff;
-  min-height:320px;
-  padding:28px;
-}
-
-.about-logo-box{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background:#fff;
-  min-height:220px;
-  padding:18px;
-}
-
-/* Fix About Section Logo Layout */
+/* Balanced About Logo Size */
 .about-card {
-  grid-template-columns: 1.35fr .65fr !important;
-  gap: 20px !important;
+  grid-template-columns: 1.15fr .85fr !important;
   align-items: center !important;
-  padding: 28px 34px !important;
+  gap: 24px !important;
+  padding: 32px 38px !important;
 }
 
 .about-logo-box {
-  min-height: 0 !important;
-  height: auto !important;
+  min-height: 230px !important;
+  height: 230px !important;
   padding: 0 !important;
   background: transparent !important;
   border: none !important;
+  overflow: hidden !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
 }
 
 .about-logo-box img.about-logo-img {
-  width: 520px !important;
-  max-width: 520px !important;
+  width: 300px !important;
+  max-width: 300px !important;
   height: auto !important;
-  max-height: 160px !important;
+  max-height: 220px !important;
   object-fit: contain !important;
-}
-
-/* تقليل فراغات قسم من نحن */
-.about-card .chips {
-  margin-top: 14px !important;
-  margin-bottom: 0 !important;
-}
-
-.about-card p {
-  margin-bottom: 10px !important;
-}
-/* Mobile Header Menu Position Fix */
-@media (max-width: 960px) {
-  .nav {
-    justify-content: flex-start !important;
-    gap: 10px !important;
-  }
-
-  .brand {
-    order: 1 !important;
-    margin-inline-end: auto !important;
-  }
-
-  .nav-actions {
-    order: 2 !important;
-  }
-
-  .mobile-toggle {
-    order: 3 !important;
-    display: block !important;
-    margin: 0 !important;
-  }
-}
-/* Strong About Logo Fix */
-.about-card {
-  grid-template-columns: 1fr 1fr !important;
-  align-items: center !important;
-}
-
-.about-logo-box {
-  min-height: 230px !important;
-  padding: 0 !important;
-  background: transparent !important;
-  border: none !important;
-  overflow: visible !important;
-}
-
-.about-logo-box img.about-logo-img {
-  width: 520px !important;
-  max-width: 520px !important;
-  height: auto !important;
-  max-height: none !important;
-  object-fit: contain !important;
-  transform: scale(1.35) !important;
+  transform: none !important;
 }
