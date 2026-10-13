@@ -3,7 +3,7 @@ window.RIKAZ_DATA = {
     "nameAr": "ركاز للخدمات العقارية",
     "nameEn": "Rikaz Real Estate Services",
     "phone": "+966 57 938 3460",
-    "whatsapp": "9665579383460",
+    "whatsapp": "966579383460",
     "address": "المملكة العربية السعودية - الرياض - حي الصفا",
     "mapUrl": "https://maps.app.goo.gl/LaTiC285wEdi8Ljz9",
     "email": "",
